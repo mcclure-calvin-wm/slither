@@ -1,7 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: session1
- * Date: 4/26/16
- * Time: 2:03 PM
- */
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
