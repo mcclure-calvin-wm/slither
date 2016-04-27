@@ -1,18 +1,23 @@
 <?php
-<<<<<<< HEAD
+
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" type="text/css" href="Homepage.css">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Slither</title>
 </head>
 <body>
 
+
+
+<div id="titlename">
+    <h1>Slither</h1>
+</div>
+
+
 </body>
 </html>
-=======
-//edit
-?>
->>>>>>> 67a355f417aca55ca63efda7dd96b9f83cd00eef
+
