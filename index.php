@@ -7,24 +7,26 @@
 
 </head>
 <body>
-<div id="div1">
-<ul>
-    <li id="li1"><a href="action.php">Action</a></li>
-    <li id="li2"><a href="adventure.php">Adventure</a></li>
-    <li id="li3"><a href="puzzle.php">Puzzle</a></li>
+<div id="contain">
+    <div id="div1">
+        <ul>
+            <li id="li1" class="li"><a href="action.php">Action</a></li>
+            <li id="li2" class="li"><a href="adventure.php">Adventure</a></li>
+            <li id="li3" class="li"><a href="puzzle.php">Puzzle</a></li>
+            <li id="li4" class="li"><a href="strategy.php">Strategy</a></li>
+            <li id="li5"><a href="card.php">Card Games</a></li>
 
-</ul>
+        </ul>
+    </div>
+        <img src="images/slither-logo.png" id="logo">
+        <ul id="icon-nav">
+            <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
+            <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
+            <li id="li6"><a href="puzzle.php"><img src="images/prof.png" width="50" height="50"></a></li>
+
+        </ul>
 </div>
-
-<div id="div2">
-    <ul>
-        <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
-        <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
-        <li id="li6"><a href="puzzle.php"><img src="images/prof.png" width="50" height="50"></a></li>
-
-    </ul>
-</div>
-<center>
+<div id="center-table">
     <table cellspacing="130" style="border-left: 1px;">
 
         <tr><td><img src="images/btd5.jpeg" style="width: 200px;height: 200px;"><h5>BlOONS TD5</h5></td>
@@ -41,8 +43,8 @@
             <td><img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Donkey_Kong_Gameplay.png" style="width: 200px;height: 200px;"><h5>Game 8</h5></td>
             <td><img src="http://s3.amazonaws.com/mpatric/assets/original/snake-screenshot.png" style="width: 200px;height: 200px;"><h5>Game 9</h5></td>
         </tr>
-    </table></center>
-
+    </table>
+</div>
 
 </body>
 </html>
