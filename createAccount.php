@@ -26,9 +26,10 @@
 </ul>
 
 
+<br>
+<div class="createA"> <form>
 
-<form>
-<p>First name:</p>
+    <p>First name:</p>
     <input type="text">
 
     <p>Last name:</p>
@@ -42,9 +43,9 @@
 
     <p>Password:</p>
     <input type="text">
-
-    <button type="submit">Create account</button>
+<br>
+    <button type="submit" class="caccount">Create account</button>
 </form>
-
+</div>
 </body>
 </html>
