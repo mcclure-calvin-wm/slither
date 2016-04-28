@@ -1,7 +1,21 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: session1
- * Date: 4/28/16
- * Time: 2:45 PM
- */
+
+/*** mysql hostname ***/
+$hostname = 'localhost';
+
+/*** mysql username ***/
+$username = 'root';
+
+/*** mysql password ***/
+$password = 'root';
+
+try{
+    $dbh = new PDO("mysql:host=$hostname;dbname=slither", $username, $password);
+    //echo 'a message saying we have connected';
+    //echo 'Connected to database';
+}
+catch(PDOException $e) {
+    echo $e->getMessage();
+}
+session_start();
+?>

@@ -1,7 +1,34 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: session1
- * Date: 4/28/16
- * Time: 1:33 PM
- */
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <div>
+            <?php
+                $gameType = $_SESSION["game"];
+                switch($gameType){
+                    case "":
+
+                        // game snake
+
+                        break;
+
+                    case "snake":
+                        
+                            // game snake
+
+                        break;
+                    default:
+
+                            //A random game
+
+                        break;
+                }
+            ?>
+        </div>
+    </body>
+</html>
+

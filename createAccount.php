@@ -1,11 +1,55 @@
 <?php
+require('Connector.php');
+if(!empty($_SESSION["userName"])){
+    header("Location: Index.php");
+}
+if(!empty($_POST['pass'])){
+
+    $username = $_POST['username'];
+    $password = $_POST['pass'];
+    $email = $_POST['email'];
+    $first = $_POST['first'];
+    $last = $_POST['last'];
+
+    if(isset($username)){
+        $prepData = array(
+            "firstN"=>$first,
+            "lastN"=>$last,
+            "password"=>$password,
+            "email"=>$email,
+            "username"=>$username
+        );
+        //print_R($prepData);
+        $stmt = $dbh->prepare("INSERT INTO Signin(firstname,
+                    lastname,
+                    password,
+                    email,
+                    username)
+            VALUES(
+                  :firstN,
+                  :lastN,
+                  :password,
+                  :email,
+                  :username)");
+        $result = $stmt->execute($prepData);
+        if($result){
+            $_SESSION["password"] = $password;
+            $_SESSION["userName"] = $username;
+            $_SESSION['registered'] = 1;
+            echo "Registered.";
+            header("Location: Index.php");
+        }else {
+            //var_dump($result);
+            echo "Error creating account.";
+        }
+    }
+}
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
-
     <link rel="stylesheet" type="text/css" href="styles.css">
-
 </head>
 <body>
 <div id="div1">
@@ -27,24 +71,20 @@
 
 
 
-<form>
-<p>First name:</p>
-    <input type="text">
+<div id="login-form">
+    <form method="post">
+        <label>First name: </label><input type="text" name="first" required/><br>
 
-    <p>Last name:</p>
-    <input type="text">
+        <label>Last name: </label><input type="text" name="last" required/><br>
 
-    <p>User name</p>
-    <input type="text">
+        <label>Username: </label><input type="text" name="username" required/><br>
 
-    <p>E-mail:</p>
-    <input type="email">
+        <label>Email: </label><input type="text" name="email" required/><br>
 
-    <p>Password:</p>
-    <input type="text">
+        <label>Password: </label><input type="password" name="pass" required/><br>
 
-    <button type="submit">Create account</button>
-</form>
+        <button type="submit" name="signup" value="1">Sign up</button></form>
+</div>
 
 </body>
 </html>
