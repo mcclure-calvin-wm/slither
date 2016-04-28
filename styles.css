@@ -46,10 +46,11 @@ li a:hover:not(.active) {
 }
 #div1{
     position: absolute;
-    margin-left: 30%;
+    margin-left: 28%;
     margin-right: inherit;
-    margin-top: 2em;
+    margin-top: 3.5em;
     width: 1100%;
+    font-size: larger;
 }
 #div2{
 
@@ -58,12 +59,12 @@ li a:hover:not(.active) {
 #icon-nav {
     position: absolute;
     right: 1em;
-    top: 1em;
+    top: 3.5em;
 }
 
 #center-table {
     position: relative;
-    top: 2em;
+    top: 5em;
     margin-left: 8em;
 }
 
@@ -72,4 +73,5 @@ li a:hover:not(.active) {
     padding-left: 1em;
     padding-top: 1em;
     float: left;
+    margin-bottom: .5em;
 }
