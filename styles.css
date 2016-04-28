@@ -4,18 +4,24 @@ ul {
     padding: 0;
     overflow: hidden;
 
+
+
+
 }
 
 li {
     float: left;
+
 }
 
 li a {
     display: block;
     color: black;
+    font-size: larger;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 li a:hover:not(.active) {
@@ -24,4 +30,19 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
+}
+#li1{
+    border-right: solid 1px;
+}
+#li2{
+    border-right: solid 1px;
+}
+#div1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+#div2{
+    float: right;
+    margin-top: -50px;
 }
