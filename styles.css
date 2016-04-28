@@ -75,3 +75,6 @@ li a:hover:not(.active) {
     float: left;
     margin-bottom: .5em;
 }
+.gameop:hover{
+    opacity: 0.4;
+}
