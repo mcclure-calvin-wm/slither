@@ -7,3 +7,6 @@
     top: 5em;
     margin-left: 8em;
 }
+.gameop:hover{
+    opacity: 0.4;
+}
