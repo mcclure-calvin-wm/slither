@@ -31,7 +31,7 @@
                     <a href="#">Link 3</a>
                 </div>
             </div>
-<!--                    <img src="images/prof.png" width="50" height="50">-->
+
                 <a href="puzzle.php"></a></li>
             <div class="dropdown-content"><p>Hello World!</p></div>
         </ul>
