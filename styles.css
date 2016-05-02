@@ -28,6 +28,7 @@ li a:hover:not(.active) {
     background-color: #97918f;
 }
 
+
 .active {
     background-color: #4CAF50;
 }
@@ -42,11 +43,15 @@ li a:hover:not(.active) {
     margin-right: auto;
     width: 300px;
 }
-#div2{
+#div2 {
     float: right;
     margin-top: -50px;
 }
-.gamehover:hover{
-    opacity: 0.5;
-    background-color:green;
+#center-table {
+    position: relative;
+    top: 5em;
+    margin-left: 8em;
+}
+.gameop:hover{
+    opacity: 0.4;
 }
