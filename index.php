@@ -4,7 +4,7 @@
         <link rel="icon" href="images/slither-logo.png">
         <title>Slither</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
-
+        <link href="nav.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="contain">
