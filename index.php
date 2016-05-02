@@ -11,7 +11,7 @@
 <div id="center-table">
     <table cellspacing="130" style="border-left: 1px;">
 
-<<<<<<< HEAD
+
         <tr><td class="gameop"><img src="images/btd5.jpeg" style="width: 200px;height: 200px;"><h5>BlOONS TD5</h5></td>
             <td class="gameop"><img src="http://fydo.net/wp-content/uploads/snake-screen2.png" style="width: 200px;height: 200px;"><h5>Game 2</h5></td>
             <td class="gameop"><img src="https://i.ytimg.com/vi/v57gNCwnjRY/maxresdefault.jpg" style="width: 200px;height: 200px;"><h5>Game 3</h5></td>
@@ -25,7 +25,7 @@
             <td class="gameop"><img src="http://3.bp.blogspot.com/-CU9MWwcL52k/TrKMSlVJymI/AAAAAAAAALc/GEN3JHAwJSI/s1600/Old+School+Game+Ban+in+Android+Market+_img_1.png" style="width: 200px;height: 200px;"><h5>Game 7</h5></td>
             <td class="gameop"><img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Donkey_Kong_Gameplay.png" style="width: 200px;height: 200px;"><h5>Game 8</h5></td>
             <td class="gameop"><img src="http://s3.amazonaws.com/mpatric/assets/original/snake-screenshot.png" style="width: 200px;height: 200px;"><h5>Game 9</h5></td>
-=======
+
         <tr>
             <td><img class="gameop" src="images/btd5.jpeg" style="width: 200px;height: 200px;"><h5>BlOONS TD5</h5></td>
             <td><img class="gameop" src="http://fydo.net/wp-content/uploads/snake-screen2.png"
@@ -50,7 +50,7 @@
                      style="width: 200px;height: 200px;"><h5>Game 8</h5></td>
             <td><img class="gameop" src="http://s3.amazonaws.com/mpatric/assets/original/snake-screenshot.png"
                      style="width: 200px;height: 200px;"><h5>Game 9</h5></td>
->>>>>>> 6792564a02620d4cd9c3b9adf3c260fc243fa4b9
+
         </tr>
     </table>
 </div>
