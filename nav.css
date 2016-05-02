@@ -22,7 +22,7 @@
 
 #icon-nav {
     position: absolute;
-    right: 1em;
+    right: 1.2em;
     top: 3.5em;
 }
 
@@ -61,4 +61,38 @@ li a {
 
 .li{
     border-right: solid 1px;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    right: 1em;
+    top: 6.8em;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
 }

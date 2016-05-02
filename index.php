@@ -5,6 +5,7 @@
         <title>Slither</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <div id="contain">
@@ -19,12 +20,22 @@
         </ul>
     </div>
         <img src="images/slither-logo.png" id="logo">
-        <ul id="icon-nav">
+        <ul id="icon-nav" style="float: left">
             <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
             <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
-            <li id="li6"><a href="puzzle.php"><img src="images/prof.png" width="50" height="50"></a></li>
-
+            <div class="dropdown">
+                <img src="images/prof.png" width="50" height="50" class="dropbtn">
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+<!--                    <img src="images/prof.png" width="50" height="50">-->
+                <a href="puzzle.php"></a></li>
+            <div class="dropdown-content"><p>Hello World!</p></div>
         </ul>
+
 </div>
 <div id="center-table">
     <table cellspacing="130" style="border-left: 1px;">
