@@ -10,3 +10,9 @@
 .gameop:hover{
     opacity: 0.4;
 }
+
+.gameop {
+    padding:1px;
+    border:.2em solid #000000;
+    background-color: #fbfffd;
+}
