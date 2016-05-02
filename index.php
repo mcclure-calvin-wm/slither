@@ -27,14 +27,14 @@
             <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
 
 
-                        <div class="dropdown">
-                                <img src="images/prof.png" width="50" height="50" class="dropbtn">
+                   <li> <div class="dropdown">
+                              <img src="images/prof.png" width="50" height="50" class="dropbtn">
                                 <div class="dropdown-content">
                                        <a href="#">Link 1</a>
                                        <a href="#">Link 2</a>
                                        <a href="#">Link 3</a>
                                     </div>
-                            </div>
+                            </div></li>
         </ul>
 
 </div>
