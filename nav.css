@@ -81,3 +81,14 @@ li a {
 .li{
     border-right: solid 1px;
 }
+
+#dropdowns {
+    width: 10em;
+    position: fixed;
+    z-index: 20;
+    right: 2em;
+    background-color: #ececec;
+    top: 5em;
+    box-shadow: -.1em .2em 1em #000000;
+    display: none;
+}
