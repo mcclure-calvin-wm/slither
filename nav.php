@@ -1,6 +1,7 @@
 
 <?php
 echo"
+    <img src=\"images/slither-logo.png\" id=\"logo-under\">
 <div id=\"contain\">
     <div id=\"div1\">
         <ul>
@@ -21,4 +22,3 @@ echo"
     </ul>
 </div>
 ";
-?>
