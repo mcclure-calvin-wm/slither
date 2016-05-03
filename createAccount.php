@@ -1,5 +1,7 @@
+
 <?php
 require('Connector.php');
+
 if(!empty($_SESSION["userName"])){
     header("Location: Index.php");
 }
@@ -50,8 +52,10 @@ if(!empty($_POST['pass'])){
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
 </head>
 <body>
+<?php require_once ("nav.php");?>
 <div id="div1">
     <ul>
         <li id="li1"><a href="action.php">Action</a></li>
