@@ -5,6 +5,8 @@
         <title>Slither</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="nav.js"></script>
 </head>
 <body>
 <?php require_once ("nav.php") ?>
