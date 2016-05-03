@@ -48,43 +48,31 @@ if(!empty($_POST['pass'])){
 
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-<div id="div1">
-    <ul>
-        <li id="li1"><a href="action.php">Action</a></li>
-        <li id="li2"><a href="adventure.php">Adventure</a></li>
-        <li id="li3"><a href="puzzle.php">Puzzle</a></li>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link href="nav.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <?php require_once ("nav.php") ?>
+        
 
-    </ul>
+        <center style="margin-top: 10%">
+            <div id="login-form">
+                <form method="post">
+                    <label>First name: </label><input type="text" name="first" required/><br>
 
-</div>
+                    <label>Last name: </label><input type="text" name="last" required/><br>
 
-<div id="div2">
-    <ul>
-        <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
-        <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
-        <li id="li6"><a href="adventure.php"><img src="images/prof.png" width="50" height="50" ></a></div>
-</ul>
+                    <label>Username: </label><input type="text" name="username" required/><br>
+
+                    <label>Email: </label><input type="text" name="email" required/><br>
+
+                    <label>Password: </label><input type="password" name="pass" required/><br>
+
+                    <button type="submit" name="signup" value="1">Sign up</button></form>
+            </div>
+        </center>
 
 
-
-<div id="login-form">
-    <form method="post">
-        <label>First name: </label><input type="text" name="first" required/><br>
-
-        <label>Last name: </label><input type="text" name="last" required/><br>
-
-        <label>Username: </label><input type="text" name="username" required/><br>
-
-        <label>Email: </label><input type="text" name="email" required/><br>
-
-        <label>Password: </label><input type="password" name="pass" required/><br>
-
-        <button type="submit" name="signup" value="1">Sign up</button></form>
-</div>
-
-</body>
+    </body>
 </html>
