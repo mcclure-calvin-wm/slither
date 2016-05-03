@@ -76,18 +76,21 @@ if(!empty($_POST['pass'])){
 
 
 <div id="login-form">
-    <form method="post">
-        <label>First name: </label><input type="text" name="first" required/><br>
+    <center><form method="post">
+            <br>
+        <label>First name: </label><input type="text" name="first" required/><br><br>
 
-        <label>Last name: </label><input type="text" name="last" required/><br>
 
-        <label>Username: </label><input type="text" name="username" required/><br>
+        <label>Last name: </label><input type="text" name="last" required/><br><br>
 
-        <label>Email: </label><input type="text" name="email" required/><br>
+        <label>Username: </label><input type="text" name="username" required/><br><br>
 
-        <label>Password: </label><input type="password" name="pass" required/><br>
+        <label>Email: </label><input type="text" name="email" required/><br><br>
 
-        <button type="submit" name="signup" value="1">Sign up</button></form>
+        <label>Password: </label><input type="password" name="pass" required/><br><br>
+
+        <button type="submit" name="signup" value="1">Sign up</button></form></center>
+
 </div>
 
 </body>
