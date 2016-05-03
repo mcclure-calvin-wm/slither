@@ -11,6 +11,7 @@
         </title>
     </head>
     <body>
+    <?php require('Connector.php'); require_once ("nav.php"); ?>
         <div>
             <?php
                 $gameType = $_SESSION["game"];

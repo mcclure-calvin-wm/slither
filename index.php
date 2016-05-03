@@ -7,7 +7,7 @@
         <link href="nav.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<?php require_once ("nav.php") ?>
+<?php require('Connector.php'); require_once ("nav.php"); ?>
 <div id="center-table">
     <table cellspacing="130" style="border-left: 1px;">
 

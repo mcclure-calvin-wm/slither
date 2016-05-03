@@ -54,7 +54,7 @@ if(!empty($_POST['pass'])){
     </head>
     <body>
         <?php require_once ("nav.php") ?>
-        
+
 
         <center style="margin-top: 10%">
             <div id="login-form">
