@@ -52,32 +52,41 @@ if(isset($_POST['pass'])) {
     </title>
     <head>
         <link rel="stylesheet" href="styles.css">
+        <link href="nav.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div id="div1">
-            <ul>
-                <li id="li1"><a href="action.php">Action</a></li>
-                <li id="li2"><a href="adventure.php">Adventure</a></li>
-                <li id="li3"><a href="puzzle.php">Puzzle</a></li>
+        <img src="images/slither-logo.png" id="logo-under">
+        <div id="contain">
+            <div id="div1">
+                <ul>
+                    <li id="li1" class="li"><a href="action.php">Action</a></li>
+                    <li id="li2" class="li"><a href="adventure.php">Adventure</a></li>
+                    <li id="li3" class="li"><a href="puzzle.php">Puzzle</a></li>
+                    <li id="li4" class="li"><a href="strategy.php">Strategy</a></li>
+                    <li id="li5"><a href="card.php">Card Games</a></li>
+
+                </ul>
+            </div>
+            <img src="images/slither-logo.png" id="logo">
+            <ul id="icon-nav">
+                <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
+                <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
+                <li id="li6"><a href="signin.php"><img src="images/prof.png" width="50" height="50"></a></li>
 
             </ul>
         </div>
-        <div id="div2">
-            <ul>
-                <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
-                <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
-                <li id="li6"><a href="adventure.php"><img src="images/prof.png" width="50" height="50" ></a></li>
-            </ul>
-        </div>
-        <center>
+        <center style="margin-top: 10%">
             <form method="post" id="sectionstartingsection">
+
                 <h1>Login</h1>
+
                 <label>Username:</label><input type="text" name="userName" id="userName" required>
+
                 <label>Password:</label><input type="password" name="pass" id="pass" required>
+
                 <button type="submit" name="submit" id="submitbutton" value="1">  Enter   </button>
             </form>
             <a href="createAccount.php">Don't have an account?</a>
         </center>
-
     </body>
 </html>
