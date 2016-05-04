@@ -5,6 +5,7 @@
         <title>Slither</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <?php require_once ("nav.php") ?>
@@ -13,34 +14,35 @@
 
         <tr>
             <td><img class="gameop" src="images/btd5.jpeg" style="width: 200px;height: 200px;"><h5>BlOONS TD5</h5></td>
-            <td><img class="gameop" src="http://fydo.net/wp-content/uploads/snake-screen2.png"
-                     style="width: 200px;height: 200px;"><h5>Game 2</h5></td>
-            <td><img class="gameop" src="https://i.ytimg.com/vi/v57gNCwnjRY/maxresdefault.jpg"
-                     style="width: 200px;height: 200px;"><h5>Game 3</h5></td>
+            <td><img class="gameop" src="images/bullet.jpg"
+                     style="width: 200px;height: 200px;"><h5>Bullet Bill</h5></td>
+            <td><img class="gameop" src="images/flight.jpeg"
+                     style="width: 200px;height: 200px;"><h5>Flight</h5></td>
         </tr>
         <tr>
-            <td><img class="gameop" src="https://upload.wikimedia.org/wikipedia/en/8/8c/A7800_Galaga.png"
-                     style="width: 200px;height: 200px;"><h5>Game 4</h5></td>
+            <td><img class="gameop" src="images/flappy.jpg"
+                     style="width: 200px;height: 200px;"><h5>Flappy Bird</h5></td>
             <td><img class="gameop"
-                     src="http://vignette4.wikia.nocookie.net/doom/images/2/21/E1M1_imps.png/revision/latest?cb=20090215170556"
-                     style="width: 200px;height: 200px;"><h5>Game 5</h5></td>
-            <td><img class="gameop" src="http://cinemassacre.com/wp-content/uploads/2015/10/mkfight.jpg"
-                     style="width: 200px;height: 200px;"><h5>Game 6</h5></td>
+                     src="images/happywheels.jpg"
+                     style="width: 200px;height: 200px;"><h5>Happy Wheels</h5></td>
+            <td><img class="gameop" src="images/pac%20man.png"
+                     style="width: 200px;height: 200px;"><h5>Pac Man</h5></td>
         </tr>
         <tr>
             <td><img class="gameop"
-                     src="http://3.bp.blogspot.com/-CU9MWwcL52k/TrKMSlVJymI/AAAAAAAAALc/GEN3JHAwJSI/s1600/Old+School+Game+Ban+in+Android+Market+_img_1.png"
-                     style="width: 200px;height: 200px;"><h5>Game 7</h5></td>
-            <td><img class="gameop" src="https://upload.wikimedia.org/wikipedia/en/f/fd/Donkey_Kong_Gameplay.png"
-                     style="width: 200px;height: 200px;"><h5>Game 8</h5></td>
-            <td><img class="gameop" src="http://s3.amazonaws.com/mpatric/assets/original/snake-screenshot.png"
-                     style="width: 200px;height: 200px;"><h5>Game 9</h5></td>
+                     src="images/quiz.png"
+                     style="width: 200px;height: 200px;"><h5>The Impossible Quiz</h5></td>
+            <td><img class="gameop" src="images/stick.jpg"
+                     style="width: 200px;height: 200px;"><h5>Stick Wars</h5></td>
+            <td><img class="gameop" src="images/pigs.png"
+                     style="width: 200px;height: 200px;"><h5>Bad Piggies</h5></td>
         </tr>
     </table>
 </div>
-flappy bird--
-<table xmlns="http://www.w3.org/1999/xhtml" cellspacing="0" class="sites-layout-name-one-column sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:500px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe title="Flash Wrapper" width="500" height="700" scrolling="no" frameborder="0" id="296496196" name="296496196" allowtransparency="true" class="igm" src="//e4oeqmdouedn14rnfg98pjni585t8rkq-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://mori79.googlecode.com/svn/trunk/flash-wrapper.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=712a83475d9305fc&amp;libs=core&amp;mid=255&amp;parent=https://sites.google.com/site/punblockedgames/flappy-bird#up_mode=window&amp;up_flashvars&amp;up_bg&amp;up_url=https://0571a2b1-a-62cb3a1a-s-sites.googlegroups.com/site/punblockedgamesstoragevault3/Demon%2520Bird?attachauth%3DANoY7cq5jsVce9Nlm00ib5cM58tNlOINGqtdcznQ1Ayng-GN1JWfAt_ZyLjvneEincuJjGLuklEnIV23F-uCxY4UrGmU6nNxTjHgZsAc4INzQU-gtjwYuVudAYhHl5y7p2LbpwecQMYi1SBEU7EaS1s4iPlrpHF3u8SbroZqanQZvCZeTuygMgFbVLgXSzCdyXU-a8bgXN-LfpkCEfqACsPJ7HQIpDkJxgmTLVmnrkZbdyjH3pgks_o%253D%26attredirects%3D0&amp;up_base&amp;st=e%3DAIHE3cC%252BmN4zTggw1ZjrnVJE7oADTfkOQfEAqW3ZWFx9T6huyiVSvtpNvBqX3IHVec7Nrq%252FFwJQS6sdLPRgipc1YlHj8M%252BgZmyhhzrZuKPxlXQUAsWcgwVkV%252FgKoBUj%252FfGCFKae6QZhx%26c%3Denterprise&amp;rpctoken=7677924077203358689"></iframe></div></div></div><div><div style="text-align:center"><img border="0" height="200" src="https://sites.google.com/site/punblockedgames/_/rsrc/1419521129328/ratingE.png?attachauth=ANoY7cpM9KDi8jIdHUMA6cONdOVVplDpdPDqv3o28K4QT6Wzi0APFYPbOu6PFJ4cvindh22xbkFnPGzxxH5UxgpSDWpH1UB3TFBbj4qchTRXlE3WIIIFHey4w0kQkb10gb-T7DyV1tJHdogUIYFhBLbmVfG_klpwgkpOCvLDbF2gnaZ3Bn_62EAIuhFaH72b95riuzNvvhRyMBid4dFj6S6ogt8ooSuFtw%3D%3D&amp;attredirects=0&amp;height=200&amp;width=135" style="line-height:16.6666660308838px;display:block;margin-right:auto;margin-left:auto" width="135" /></div><div style="text-align:center"><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-off sites-embed sites-embed-full-width" style="width:100%;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe title="gCodeAdSense" width="100%" height="200" scrolling="no" frameborder="0" id="1174746978" name="1174746978" allowtransparency="true" class="igm" src="//r2eh910spi4blvgltedsa0sh731h88cm-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=https://gcodeadsense.googlecode.com/svn/release/gCodeAdSense/gCodeAdSense.xml&amp;container=enterprise&amp;view=default&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=7d84246fe46be2b8&amp;libs=core&amp;mid=212&amp;parent=https://sites.google.com/site/punblockedgames/flappy-bird#up_ad_client=1121794332086775&amp;up_ad_width=728&amp;up_ad_project&amp;up_ad_slot=1023090840&amp;up_ad_keywords&amp;up_ad_height=90&amp;st=e%3DAIHE3cDIpiirefyNYQ87HXbdvybKrh6LIF07iVPsWCRrVIxNSGToMyoaUdGBLCoSkhJbh1BIDuPWPnvUWKgaY05L9FOceRteAYtVUz6vjVpWwtFcVm9ri%252F1w6oIpR0WmthX8jEHc%252FfkQ%26c%3Denterprise&amp;rpctoken=-7863719710481916455"></iframe></div></div></div></div><div><br /></div><br /></div></div></td></tr></tbody></table>
 
+
+
+<iframe width="728" height="90" scrolling="no" frameborder="0" id="562874499" name="562874499" allowtransparency="true" class="igm" ></iframe><br /><br /><table cellspacing="0" class="sites-layout-hbox"><tbody><tr><td class="sites-layout-tile sites-tile-name-content-1"><div dir="ltr"><div class="sites-embed-align-center-wrapping-off"><div class="sites-embed-border-off sites-embed" style="width:800px;"><div class="sites-embed-content sites-embed-type-ggs-gadget"><iframe width="800" height="500" scrolling="no" frameborder="0" id="109703876" name="109703876" allowtransparency="true" class="igm" src="//jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/embed/embed.xml&amp;container=enterprise&amp;view=home&amp;lang=en&amp;country=ALL&amp;sanitize=0&amp;v=34daa726dd98b370&amp;libs=core:setprefs&amp;parent=https://sites.google.com/site/unblockedgamesonlinefree/bad-piggies#up_embed_snippet=%3Cobject+xmlns%3D%22http://www.w3.org/1999/xhtml%22+data%3D%22https://sites.google.com/site/douchebag77777/BadPiggies.swf%22+height%3D%22500%22+width%3D%22800%22+/%3E&amp;st=e%3DAIHE3cDpDpt6b6zJs3GnJPDvpeKkR7ezb6U5k9bCmCXuzWwK6bRs7uOB376DkU4FHTVzrWkmMOuYRu65LShGXKQjvTdhEeiC46Edn2zy25TqO4CaQM%252FnZKdiKEKVoqPCUO9lanl7G7OO%26c%3Denterprise&amp;rpctoken=8447196462574695762"></iframe>
 
 </body>
 </html>
