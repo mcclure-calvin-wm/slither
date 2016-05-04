@@ -5,12 +5,21 @@ echo"
 <div id=\"contain\">
     <div id=\"div1\">
         <ul>
-            <li id=\"li1\" class=\"li\"><a href=\"action.php\">Action</a></li>
-            <li id=\"li2\" class=\"li\"><a href=\"adventure.php\">Adventure</a></li>
-            <li id=\"li3\" class=\"li\"><a href=\"puzzle.php\">Puzzle</a></li>
-            <li id=\"li4\" class=\"li\"><a href=\"strategy.php\">Strategy</a></li>
-            <li id=\"li5\"><a href=\"card.php\">Card Games</a></li>
-
+            <li id=\"li1\" class=\"li\">
+                <a href=\"action.php\" class='li-link'>Action</a>
+            </li>
+            <li id=\"li2\" class=\"li\">
+                <a href=\"adventure.php\" class='li-link'>Adventure</a>
+            </li>
+            <li id=\"li3\" class=\"li\">
+                <a href=\"puzzle.php\" class='li-link'>Puzzle</a>
+            </li>
+            <li id=\"li4\" class=\"li\">
+                <a href=\"strategy.php\" class='li-link'>Strategy</a>
+            </li>
+            <li id=\"li5\">
+                <a href=\"card.php\" class='li-link'>Card Games</a>
+            </li>
         </ul>
     </div>
     <img src=\"images/slither-logo.png\" id=\"logo\">
@@ -23,11 +32,11 @@ echo"
         <div id='sign-in-drop'>
             <table>
                 <ul>
-                    <li id='drop-one'>
-                        <a href='#'>Sign In</a>
+                    <li id='drop-one' class='drop-li'>
+                        <a href='#' class='drop-link'>Sign In</a>
                     </li>
-                    <li id='drop-two'>
-                        <a href='#'>Create Account</a>
+                    <li id='drop-two' class='drop-li'>
+                        <a href='#' class='drop-link'>Create Account</a>
                     </li>
                 </ul>
             </table>
