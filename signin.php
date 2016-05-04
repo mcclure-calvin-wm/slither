@@ -2,79 +2,56 @@
 
 <?php
 
-require('Connector.php');
-if(isset($_SESSION['password'])){
-    header("Location: index.php");
-}
-
-
-if(isset($_POST['pass'])) {
-    $username = $_POST['userName'];
-    $password = $_POST['pass'];
-
-    $prepData = array(
-        "password" => $password,
-        "username" => $username
-    );
-
-    $stmt = $dbh->prepare("SELECT * FROM Signin");
-    $stmt->execute($prepData);
-    $results = $stmt->fetchAll();
-
-    foreach($results as $it){
-        if(/*count($result)*/ $it['password'] == $password){
-            if(isset($_SESSION['password'])) {
-                unset($_SESSION['password']);
-                unset($_SESSION['userName']);
-            }
-            $_SESSION["password"] = $password;
-            $_SESSION["userName"] = $username;
-            $_SESSION['registered'] = 1;
-            echo "Registered.";
-            echo $username;
-            echo $password;
-            header("Location: index.php");
-        }else {
-            var_dump($result);
-            echo "Error... Reloading...";
-            echo '<script>window.location.assign("signin.php")</script>';
-        }
+    require('Connector.php');
+    if(isset($_SESSION['password'])){
+        header("Location: index.php");
     }
-}
+
+
+
+    if(isset($_POST['pass'])) {
+        $username = $_POST['userName'];
+        $password = $_POST['pass'];
+
+        $prepData = array(
+            "password" => $password,
+            "username" => $username
+        );
+        $stmt = $dbh->prepare("SELECT username, password FROM Signin WHERE username=:username AND password=:password;");
+        $stmt->execute($prepData);
+        $results = $stmt->fetchAll();
+            if(count($results) == 1){
+                if(isset($_SESSION['password'])) {
+                    unset($_SESSION['password']);
+                    unset($_SESSION['userName']);
+                }
+                $_SESSION["password"] = $password;
+                $_SESSION["userName"] = $username;
+                $_SESSION['registered'] = 1;
+                echo "Registered.";
+                echo $username;
+                echo $password;
+                header("Location: index.php");
+            }else {
+                var_dump($result);
+                echo "Error... Reloading...";
+                echo '<script>window.location.assign("signin.php")</script>';
+            }
+        }
 
 ?>
 
 
 
 <html>
-    <title>
-        The section?
-    </title>
     <head>
+        <link rel="icon" href="images/slither-logo.png">
+        <title>Slither</title>
         <link rel="stylesheet" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <img src="images/slither-logo.png" id="logo-under">
-        <div id="contain">
-            <div id="div1">
-                <ul>
-                    <li id="li1" class="li"><a href="action.php">Action</a></li>
-                    <li id="li2" class="li"><a href="adventure.php">Adventure</a></li>
-                    <li id="li3" class="li"><a href="puzzle.php">Puzzle</a></li>
-                    <li id="li4" class="li"><a href="strategy.php">Strategy</a></li>
-                    <li id="li5"><a href="card.php">Card Games</a></li>
-
-                </ul>
-            </div>
-            <img src="images/slither-logo.png" id="logo">
-            <ul id="icon-nav">
-                <li id="li4"><a href="index.php"><img src="images/home-icon.png" width="50" height="50"> </a></li>
-                <li id="li5"><a href="adventure.php"><img src="images/settings.png" width="50" height="50"></a></li>
-                <li id="li6"><a href="signin.php"><img src="images/prof.png" width="50" height="50"></a></li>
-
-            </ul>
-        </div>
+        <?php require_once ("nav.php") ?>
         <center style="margin-top: 10%">
             <form method="post" id="sectionstartingsection">
 
