@@ -74,7 +74,7 @@
 
             $comm = "SELECT name, comment, post_time from comments order by post_time desc";
             $stmt = $dbh->prepare($comm);
-            $stmt->execute($prepData);
+            $stmt->execute();
             $results = $stmt->fetchAll();
             foreach($results as $row){
                 $name=$row['name'];
