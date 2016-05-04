@@ -53,6 +53,8 @@ if(!empty($_POST['pass'])){
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="createAccount.css">
+
 </head>
 <body>
 <?php require_once ("nav.php");?>
@@ -78,18 +80,18 @@ if(!empty($_POST['pass'])){
 <div id="login-form">
     <center><form method="post">
             <br>
-        <label>First name: </label><input type="text" name="first" required/><br><br>
+        <label>First name: </label><br><input type="text" name="first" required class="createinput"/><br><br>
 
 
-        <label>Last name: </label><input type="text" name="last" required/><br><br>
+        <label>Last name: </label><br><input type="text" name="last" required class="createinput"/><br><br>
 
-        <label>Username: </label><input type="text" name="username" required/><br><br>
+        <label>Username: </label><br><input type="text" name="username" required class="createinput"/><br><br>
 
-        <label>Email: </label><input type="text" name="email" required/><br><br>
+        <label>Email: </label><br><input type="text" name="email" required class="createinput"/><br><br>
 
-        <label>Password: </label><input type="password" name="pass" required/><br><br>
+        <label>Password: </label><br><input type="password" name="pass" required class="createinput"/><br><br>
 
-        <button type="submit" name="signup" value="1">Sign up</button></form></center>
+        <button type="submit" name="signup" value="1" class="subButon">Sign up</button></form></center>
 
 </div>
 
