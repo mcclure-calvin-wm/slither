@@ -3,9 +3,13 @@
     border-left: none;
     border-right: none;
     border-top: none;
-    outline-color: #269e3f;
+    /*outline-color: #269e3f;*/
     width: 20em;
     height: 3em;
+}
+
+.createinput:focus {
+    outline-color: #269e3f;
 }
 
 label {
@@ -16,10 +20,10 @@ label {
     background-color: transparent;
     font-size: 2.8em;
     font-family: 'Nunito', sans-serif;
+    color: #135221;
 }
 .subButon:hover{
     font-size: 3.5em;
-border-color: #2f9b22;
-    outline-color: #269e3f;
+    text-decoration: #135221;
 
 }

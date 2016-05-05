@@ -1,7 +1,7 @@
 
 <?php
 echo"
-    <img src=\"images/slither-logo.png\" id=\"logo-under\">
+    <a href='index.php' id='logo-link'><img src=\"images/slither-logo.png\" id=\"logo-under\"></a>
 <div id=\"contain\">
     <div id=\"div1\">
         <ul>
@@ -36,7 +36,7 @@ echo"
                         <a href='#' class='drop-link'>Sign In</a>
                     </li>
                     <li id='drop-two' class='drop-li'>
-                        <a href='#' class='drop-link'>Create Account</a>
+                        <a href='createAccount.php' class='drop-link'>Create Account</a>
                     </li>
                 </ul>
             </table>
