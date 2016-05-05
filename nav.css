@@ -65,7 +65,7 @@ li {
     float: left;
 }
 
-li a:hover:not(.active) {
+.glow a:hover:not(.active) {
     /*width: 110%;*/
     background-color: rgba(76, 175, 80, 0.51);
 }
