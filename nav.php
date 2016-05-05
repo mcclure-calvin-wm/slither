@@ -5,20 +5,20 @@ echo"
 <div id=\"contain\">
     <div id=\"div1\">
         <ul>
-            <li id=\"li1\" class=\"li\">
+            <li id=\"li1\" class=\"li glow\">
                 <a href=\"action.php\" class='li-link'>Action</a>
             </li>
-            <li id=\"li2\" class=\"li\">
+            <li id=\"li2\" class=\"li glow\">
                 <a href=\"adventure.php\" class='li-link'>Adventure</a>
             </li>
-            <li id=\"li3\" class=\"li\">
+            <li id=\"li3\" class=\"li glow\">
                 <a href=\"puzzle.php\" class='li-link'>Puzzle</a>
             </li>
-            <li id=\"li4\" class=\"li\">
+            <li id=\"li4\" class=\"li glow\">
                 <a href=\"strategy.php\" class='li-link'>Strategy</a>
             </li>
-            <li id=\"li5\">
-                <a href=\"card.php\" class='li-link'>Card Games</a>
+            <li id=\"li5\" class='glow'>
+                <a href=\"card.php\" class=\"li-link\">Card Games</a>
             </li>
         </ul>
     </div>
@@ -33,10 +33,10 @@ echo"
             <table>
                 <ul>
                     <li id='drop-one' class='drop-li'>
-                        <a href='#' class='drop-link'>Sign In</a>
+                        <a href='signin.php' class='drop-link'>Sign In</a>
                     </li>
                     <li id='drop-two' class='drop-li'>
-                        <a href='#' class='drop-link'>Create Account</a>
+                        <a href='createAccount.php' class='drop-link'>Create Account</a>
                     </li>
                 </ul>
             </table>

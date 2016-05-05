@@ -11,16 +11,6 @@
     opacity: 0.4;
 }
 
-#logo {
-    width: 8em;
-    padding-left: 1em;
-    padding-top: 1em;
-    float: left;
-    margin-bottom: .5em;
-}
-.gameop:hover{
-    opacity: 0.4;
-}
 .gameop {
     padding:1px;
     border:.2em solid #000000;
