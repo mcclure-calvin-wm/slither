@@ -82,6 +82,10 @@ li a {
     border-right: solid 1px;
 }
 
+.li-link:hover {
+    text-shadow: 0 0 .1em rgba(76, 175, 80, 0.47);
+}
+
 #dropdowns {
     width: 10em;
     position: fixed;
@@ -91,4 +95,13 @@ li a {
     top: 5em;
     box-shadow: -.1em .2em 1em #000000;
     display: none;
+    border-radius: 5%;
+}
+.drop-li{
+    width: 100%;
+    border-bottom-style: solid;
+    border-width: .01em;
+}
+.drop-link:hover {
+    background-color: rgba(76, 175, 80, 0.4);
 }
