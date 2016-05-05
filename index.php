@@ -5,15 +5,12 @@
         <title>Slither</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script type="text/javascript" src="nav.js"></script>
 </head>
 <body>
-<?php require_once ("nav.php") ?>
+<?php require('Connector.php'); require_once ("nav.php"); ?>
 <div id="center-table">
     <table cellspacing="130" style="border-left: 1px;">
 
-        
         <tr>
             <td><img class="gameop" src="images/btd5.jpeg" style="width: 200px;height: 200px;"><h5>BlOONS TD5</h5></td>
             <td><img class="gameop" src="http://fydo.net/wp-content/uploads/snake-screen2.png"
