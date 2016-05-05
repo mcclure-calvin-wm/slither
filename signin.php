@@ -49,6 +49,7 @@
         <title>Slither</title>
         <link rel="stylesheet" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="createAccount.css">
     </head>
     <body>
         <?php require_once ("nav.php") ?>
@@ -57,12 +58,18 @@
 
                 <h1>Login</h1>
 
-                <label>Username:</label><input type="text" name="userName" id="userName" required>
-
-                <label>Password:</label><input type="password" name="pass" id="pass" required>
+                <label>Username:</label><br>
+                <input type="text" name="userName" id="userName" required class="createinput">
+                <br>
+                <br>
+                <label>Password:</label><br>
+                <input type="password" name="pass" id="pass" required class="createinput">
+                <br>
+                <br>
 
                 <button type="submit" name="submit" id="submitbutton" value="1">  Enter   </button>
             </form>
+            <br>
             <a href="createAccount.php">Don't have an account?</a>
         </center>
     </body>
