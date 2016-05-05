@@ -1,5 +1,7 @@
+
 <?php
 require('Connector.php');
+
 if(!empty($_SESSION["userName"])){
     header("Location: Index.php");
 }
@@ -50,8 +52,12 @@ if(!empty($_POST['pass'])){
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="createAccount.css">
+
 </head>
 <body>
+<?php require_once ("nav.php");?>
 <div id="div1">
     <ul>
         <li id="li1"><a href="action.php">Action</a></li>
@@ -72,18 +78,21 @@ if(!empty($_POST['pass'])){
 
 
 <div id="login-form">
-    <form method="post">
-        <label>First name: </label><input type="text" name="first" required/><br>
+    <center><form method="post">
+            <br>
+        <label>First name: </label><br><input type="text" name="first" required class="createinput"/><br><br>
 
-        <label>Last name: </label><input type="text" name="last" required/><br>
 
-        <label>Username: </label><input type="text" name="username" required/><br>
+        <label>Last name: </label><br><input type="text" name="last" required class="createinput"/><br><br>
 
-        <label>Email: </label><input type="text" name="email" required/><br>
+        <label>Username: </label><br><input type="text" name="username" required class="createinput"/><br><br>
 
-        <label>Password: </label><input type="password" name="pass" required/><br>
+        <label>Email: </label><br><input type="text" name="email" required class="createinput"/><br><br>
 
-        <button type="submit" name="signup" value="1">Sign up</button></form>
+        <label>Password: </label><br><input type="password" name="pass" required class="createinput"/><br><br>
+
+        <button type="submit" name="signup" value="1" class="subButon">Sign up</button></form></center>
+
 </div>
 
 </body>
