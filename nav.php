@@ -33,10 +33,10 @@ echo"
             <table>
                 <ul>
                     <li id='drop-one' class='drop-li'>
-                        <a href='#' class='drop-link'>Sign In</a>
+                        <a href='signin.php' class='drop-link'>Sign In</a>
                     </li>
                     <li id='drop-two' class='drop-li'>
-                        <a href='#' class='drop-link'>Create Account</a>
+                        <a href='createAccount.php' class='drop-link'>Create Account</a>
                     </li>
                 </ul>
             </table>
