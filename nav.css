@@ -45,7 +45,7 @@
     float: left;
     margin-bottom: .5em;
     box-shadow: 0 0 .5em #000000;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 50%;
     position: fixed;
     left: -.5em;
@@ -66,7 +66,6 @@ li {
 }
 
 .glow a:hover:not(.active) {
-    /*width: 110%;*/
     background-color: rgba(76, 175, 80, 0.51);
 }
 
@@ -105,4 +104,9 @@ li a {
 }
 .drop-link:hover {
     background-color: rgba(76, 175, 80, 0.4);
+}
+
+#logo-link {
+    position: fixed;
+    z-index: 40;
 }
