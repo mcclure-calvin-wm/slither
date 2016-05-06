@@ -50,6 +50,8 @@
         <link rel="stylesheet" href="styles.css">
         <link href="nav.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="createAccount.css">
+        <link rel="stylesheet" href="animate.min.css">
+
     </head>
     <body>
         <?php require_once ("nav.php") ?>
@@ -72,5 +74,6 @@
             <br>
             <a href="createAccount.php">Don't have an account?</a>
         </center>
+
     </body>
 </html>
