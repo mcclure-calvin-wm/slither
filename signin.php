@@ -45,19 +45,14 @@
 
 <html>
     <head>
-        <link rel="icon" href="images/slither-logo.png">
         <title>Slither</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="nav.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" type="text/css" href="createAccount.css">
+        <?php require_once ("links.php"); ?>
     </head>
     <body>
         <?php require_once ("nav.php") ?>
         <center style="margin-top: 10%">
             <form method="post" id="sectionstartingsection">
-
-                <h1>Login</h1>
-
                 <label>Username:</label><br>
                 <input type="text" name="userName" id="userName" required class="createinput">
                 <br>
@@ -67,10 +62,10 @@
                 <br>
                 <br>
 
-                <button type="submit" name="submit" id="submitbutton" value="1">  Enter   </button>
+                <button type="submit" name="submit" id="submitbutton" value="1" class="subButon">  Enter   </button>
             </form>
             <br>
-            <a href="createAccount.php">Don't have an account?</a>
+            <a href="createAccount.php" id="link">Don't have an account?</a>
         </center>
     </body>
 </html>

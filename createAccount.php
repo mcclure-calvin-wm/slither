@@ -51,14 +51,9 @@ if(!empty($_POST['pass'])){
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="nav.css">
     <link rel="stylesheet" type="text/css" href="createAccount.css">
     <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <link href="jQuery.js" rel="script">
-    <script rel="script" type="text/javascript" src="nav.js"></script>
-
+    <?php include_once ("links.php"); ?>
 </head>
 <body>
 <?php require_once ("nav.php");?>
