@@ -45,25 +45,27 @@
 
 <html>
     <head>
-        <link rel="icon" href="images/slither-logo.png">
         <title>Slither</title>
-        <link rel="stylesheet" href="styles.css">
-        <link href="nav.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="createAccount.css">
+        <?php require_once ("links.php"); ?>
     </head>
     <body>
         <?php require_once ("nav.php") ?>
         <center style="margin-top: 10%">
             <form method="post" id="sectionstartingsection">
+                <label>Username:</label><br>
+                <input type="text" name="userName" id="userName" required class="createinput">
+                <br>
+                <br>
+                <label>Password:</label><br>
+                <input type="password" name="pass" id="pass" required class="createinput">
+                <br>
+                <br>
 
-                <h1>Login</h1>
-
-                <label>Username:</label><input type="text" name="userName" id="userName" required>
-
-                <label>Password:</label><input type="password" name="pass" id="pass" required>
-
-                <button type="submit" name="submit" id="submitbutton" value="1">  Enter   </button>
+                <button type="submit" name="submit" id="submitbutton" value="1" class="subButon">  Enter   </button>
             </form>
-            <a href="createAccount.php">Don't have an account?</a>
+            <br>
+            <a href="createAccount.php" id="link">Don't have an account?</a>
         </center>
     </body>
 </html>

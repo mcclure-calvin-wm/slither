@@ -1,0 +1,22 @@
+.active {
+    background-color: #4CAF50;
+}
+
+#center-table {
+    position: relative;
+    top: 5em;
+    margin-left: 8em;
+}
+.gameop:hover{
+    opacity: 0.4;
+}
+
+.gameop {
+    padding:1px;
+    border:.2em solid #000000;
+    background-color: #fbfffd;
+}
+h5{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
