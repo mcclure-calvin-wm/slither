@@ -6,19 +6,19 @@ echo"
     <div id=\"div1\">
         <ul>
             <li id=\"li1\" class=\"li glow\">
-                <a href=\"action.php\" class='li-link'>Action</a>
+                <a href=\"action.php\" id='action-nav' class='li-link'>Action</a>
             </li>
             <li id=\"li2\" class=\"li glow\">
-                <a href=\"adventure.php\" class='li-link'>Adventure</a>
+                <a href=\"adventure.php\" id='adventure-nav' class='li-link'>Adventure</a>
             </li>
             <li id=\"li3\" class=\"li glow\">
-                <a href=\"puzzle.php\" class='li-link'>Puzzle</a>
+                <a href=\"puzzle.php\" id='puzzle-nav' class='li-link'>Puzzle</a>
             </li>
             <li id=\"li4\" class=\"li glow\">
-                <a href=\"strategy.php\" class='li-link'>Strategy</a>
+                <a href=\"strategy.php\" id='strategy' class='li-link'>Strategy</a>
             </li>
             <li id=\"li5\" class='glow'>
-                <a href=\"card.php\" class=\"li-link\">Card Games</a>
+                <a href=\"card.php\" id='card-nav' class=\"li-link\">Card Games</a>
             </li>
         </ul>
     </div>
