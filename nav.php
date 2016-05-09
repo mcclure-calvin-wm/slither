@@ -1,7 +1,7 @@
 
 <?php
 echo"
-    <img src=\"images/slither-logo.png\" id=\"logo-under\">
+    <a href='index.php' id='logo-link'><img src=\"images/slither-logo.png\" id=\"logo-under\"></a>
 <div id=\"contain\">
     <div id=\"div1\">
         <ul>
