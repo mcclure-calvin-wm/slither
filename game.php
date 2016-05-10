@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<ht
 <head>
     <title><?php echo($gamename)?></title>
     <?php require_once ('links.php') ?>
@@ -15,4 +16,4 @@
 
 </div>
 </body>
-</html>
+</htm>
