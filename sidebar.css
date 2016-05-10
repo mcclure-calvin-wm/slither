@@ -1,0 +1,16 @@
+#sidebar-container {
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 10px #000000;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 18em;
+}
+
+#comments-contain {
+    position: relative;
+    top: 15em;
+    border: .6em #252525;
+    background-color: #269e3f;
+}

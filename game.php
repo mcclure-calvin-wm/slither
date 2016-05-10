@@ -1,25 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title><?php echo($gamename)?></title>
+    <?php require_once ('links.php') ?>
+    <link rel="stylesheet" type="text/css" href="sidebar.css">
+    <style>
+        body {
+            background-color: #d9d9d9;
+        }
+    </style>
 </head>
 <body>
-<div id="main_page">
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
+<?php require_once ('nav.php')?>
+<?php require_once ('sidebar.php') ?>
 
 </div>
 </body>
