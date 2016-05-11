@@ -25,7 +25,7 @@ echo"
     <img src=\"images/slither-logo.png\" id=\"logo\">
     <ul id=\"icon-nav\">
         <li id=\"li4\"><a href=\"index.php\"><img src=\"images/home-icon.png\" width=\"50\" height=\"50\"> </a></li>
-        <li id=\"li5\"><a href=\"#\"><img src=\"images/settings.png\" width=\"50\" height=\"50\"></a></li>
+        <li id=\"li5\"><a href=\"profileInfo.php\"><img src=\"images/settings.png\" width=\"50\" height=\"50\"></a></li>
         <li id=\"li6\"><a href=\"#\"><img src=\"images/prof.png\" width=\"50\" height=\"50\"></a></li>
     </ul>
     <div id='dropdowns'>

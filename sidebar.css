@@ -11,6 +11,5 @@
 #comments-contain {
     position: relative;
     top: 15em;
-    border: .6em #252525;
-    background-color: #269e3f;
+    border-top: .2em solid #252525;
 }
