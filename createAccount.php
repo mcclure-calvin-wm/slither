@@ -1,6 +1,6 @@
 
 <?php
-require('Connector.php');
+require('connectvars.php');
 
 if(!empty($_SESSION["userName"])){
     header("Location: Index.php");
