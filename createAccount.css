@@ -30,7 +30,7 @@ label {
 }
 
 #link{
-    position: absolute;
-    top: 25em;
+    position: fixed;
+    top: 24em;
     left: 45%;
 }

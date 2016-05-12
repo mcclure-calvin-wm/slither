@@ -101,9 +101,10 @@ li a {
     width: 100%;
     border-bottom-style: solid;
     border-width: .01em;
+    background: rgba(76, 175, 80, 0);
 }
 .drop-link:hover {
-    background-color: rgba(76, 175, 80, 0.4);
+    background: rgba(76, 175, 80, 0.4);
 }
 
 #logo-link {
