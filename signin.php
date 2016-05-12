@@ -8,18 +8,17 @@
     }
 
 
+        if(isset($_POST['pass'])) {
+            $username = $_POST['userName'];
+            $password = $_POST['pass'];
 
-    if(isset($_POST['pass'])) {
-        $username = $_POST['userName'];
-        $password = $_POST['pass'];
-
-        $prepData = array(
-            "password" => $password,
-            "username" => $username
-        );
-        $stmt = $dbh->prepare("SELECT username, password FROM Signin WHERE username=:username AND password=:password;");
-        $stmt->execute($prepData);
-        $results = $stmt->fetchAll();
+            $prepData = array(
+                "password" => $password,
+                "username" => $username
+            );
+            $stmt = $dbh->prepare("SELECT username, password FROM Signin WHERE username=:username AND password=:password;");
+            $stmt->execute($prepData);
+            $results = $stmt->fetchAll();
             if(count($results) == 1){
                 if(isset($_SESSION['password'])) {
                     unset($_SESSION['password']);
@@ -35,9 +34,10 @@
             }else {
                 var_dump($result);
                 echo "Error... Reloading...";
-                echo '<script>window.location.assign("signin.php")</script>';
+                //echo '<script>window.location.assign("signin.php")</script>';
             }
         }
+
 
 ?>
 
@@ -52,7 +52,7 @@
     <body>
         <?php require_once ("nav.php") ?>
         <center style="margin-top: 10%">
-            <form method="post" id="sectionstartingsection">
+            <form method="post" id="sectionstartingsection" onblur="<?php $stmt1 = $dbh->prepare("SELECT username FROM Signin WHERE username=:username"); $stmt1->execute(array("username" => $_POST['userName'])); $results1 = $stmt1->fetchAll(); if(count($results1)!==1){echo $_POST['userName']; var_dump($results1);} ?>">
                 <label>Username:</label><br>
                 <input type="text" name="userName" id="userName" required class="createinput">
                 <br>
