@@ -1,3 +1,9 @@
 <?php
-$dbh = new PDO("mysql:host=127.0.0.1;dbname=slither", 'root', 'root');
+$hostname = 'localhost';
+$username = 'root';
+$password = 'root';
+
+$dbh = new PDO("mysql:host=$hostname;dbname=slither", $username, $password);
+
+session_start();
 ?>

@@ -2,7 +2,7 @@
 
 <?php
 
-    require('Connector.php');
+    require("connectvars.php");
     if(isset($_SESSION['password'])){
         header("Location: index.php");
     }
@@ -51,7 +51,7 @@
     </head>
     <body>
         <?php require_once ("nav.php") ?>
-        <center style="margin-top: 10%">
+        <center style="margin-top: 8%">
             <form method="post" id="sectionstartingsection">
                 <label>Username:</label><br>
                 <input type="text" name="userName" id="userName" required class="createinput">
@@ -60,8 +60,6 @@
                 <label>Password:</label><br>
                 <input type="password" name="pass" id="pass" required class="createinput">
                 <br>
-                <br>
-
                 <button type="submit" name="submit" id="submitbutton" value="1" class="subButon">  Enter   </button>
             </form>
             <br>

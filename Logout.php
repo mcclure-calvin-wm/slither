@@ -1,5 +1,5 @@
 <?php
-    require("Connector.php");
+    require("connectvars.php");
     session_destroy();
     header("Location: signin.php");
 ?>
