@@ -46,6 +46,7 @@
             require("nav.php");
         ?>
 
+
         <form method='post' action="" onsubmit="return post();">
             <textarea id="comment" placeholder="Write Your Comment Here....."></textarea>
             <br>
