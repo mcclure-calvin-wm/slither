@@ -20,6 +20,7 @@ $gameData = $stmt->fetchAll();
 foreach ($gameData as $it) {
     $gameName = $it['gameName'];
     $games = $it['games'];
+    $image = $it['Image'];
 }
 ?>
 
@@ -38,7 +39,8 @@ foreach ($gameData as $it) {
 <body>
 <?php require_once ('nav.php')?>
 <?php require_once ('sidebar.php') ?>
-
+<!--<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" style="position: fixed; top: 13em; width: 10em;"></div>-->
+<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" style="position: fixed; top: 5em; right: 0; width: 12em; height: 38em;"></div>
 <div id="body">
     <?php echo "$games"?>
 </div>
