@@ -39,10 +39,7 @@ echo '</table>';
     <div id=\"sidebar-container\">
         <div id='comments-contain'>
             <div id='comment-table'>
-                <table>
-                    <tr><p>a</p></tr>
-                </table>
-            </div>
+        <!-- Begin Comments JavaScript Code --><script type=\"text/javascript\" async>function ajaxpath_573a3e42128d6(url){return window.location.href == '' ? url : url.replace('&s=','&s=' + escape(window.location.href));}(function(){document.write('<div id=\"fcs_div_573a3e42128d6\"><a title=\"free comment script\" href=\"http://www.freecommentscript.com\">&nbsp;&nbsp;<b>Free HTML User Comments</b>...</a></div>');fcs_573a3e42128d6=document.createElement('script');fcs_573a3e42128d6.type=\"text/javascript\";fcs_573a3e42128d6.src=ajaxpath_573a3e42128d6((document.location.protocol==\"https:\"?\"https:\":\"http:\")+\"//www.freecommentscript.com/GetComments2.php?p=573a3e42128d6&s=&Size=10#!573a3e42128d6\");setTimeout(\"document.getElementById('fcs_div_573a3e42128d6').appendChild(fcs_573a3e42128d6)\",1);})();</script><noscript><div><a href=\"http://www.freecommentscript.com\" title=\"free html user comment box\">Free Comment Script</a></div></noscript><!-- End Comments JavaScript Code -->            </div>
         </div>
     </div>
 ")?>

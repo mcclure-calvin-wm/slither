@@ -12,17 +12,18 @@
     <table cellspacing="130" style="border-left: 1px;">
 
         <tr>
+            <td><a href="game.php?id=4"><img class="gameop" src="images/Cat%20Mario.png"
+                                             style="width: 200px;height: 200px;"></a><h5>Cat Mario</h5></td>
 
-            <td><img class="gameop"
-                     src="images/happywheels.jpg"
-                     style="width: 200px;height: 200px;"><h5>Happy Wheels</h5></td>
-            <td><img class="gameop"
-                     src="images/quiz.png"
-                     style="width: 200px;height: 200px;"><h5>The Impossible Quiz</h5></td>
-            <td><img class="gameop" src="images/pigs.png"
-                     style="width: 200px;height: 200px;"><h5>Bad Piggies</h5></td>
+
+
+            <td><a href="game.php?id=9"><img class="gameop" src="images/pigs.png"
+                                             style="width: 200px;height: 200px;"></a><h5>Bad Piggies</h5></td>
         </tr>
+        <tr>
 
+
+        </tr>
     </table>
 </div>
 
