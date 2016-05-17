@@ -37,6 +37,7 @@ if(!empty($_POST['pass'])){
         if($result){
             $_SESSION["password"] = $password;
             $_SESSION["userName"] = $username;
+            $_SESSION['backGroundColor'] = "#ffffff";
             $_SESSION['registered'] = 1;
             echo "Registered.";
             header("Location: Index.php");
