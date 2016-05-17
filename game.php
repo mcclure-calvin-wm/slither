@@ -40,7 +40,7 @@ foreach ($gameData as $it) {
 <?php require_once ('nav.php')?>
 <?php require_once ('sidebar.php') ?>
 <!--<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" style="position: fixed; top: 13em; width: 10em;"></div>-->
-<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" style="position: fixed; top: 5em; right: 0; width: 12em; height: 38em; z-index: 0;"></div>
+<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" id="dorito"></div>
 <div id="body">
     <?php echo "$games"?>
 </div>
