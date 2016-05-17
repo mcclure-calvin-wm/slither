@@ -5,14 +5,14 @@
     <title>Slither</title>
         <?php require_once("links.php"); ?>
 </head>
-<body>
-<?php require_once ("nav.php") ?>
+<body style="background:<?php if(!empty($_SESSION["backGroundColor"])){echo $_SESSION['backGroundColor'];}?>">
+<?php require_once ("nav.php"); if(!empty($_SESSION["backGroundColor"])){echo $_SESSION['backGroundColor'];}?>
 
 <div id="center-table">
 
     <table cellspacing="130" style="border-left: 1px;">
         <tr>
-            <td><a href="game.php?id=1"><img class="gameop" src="images/Apple.png"
+            <td><a href="game.php?id=1"><img class="gameop" src="images/applez.jpeg"
                                              style="width: 200px;height: 200px;"></a><h5>Apple Shooter</h5></td>
             <td><a href="game.php?id=2"><img class="gameop" src="images/qwop.png"
                      style="width: 200px;height: 200px;"></a><h5>QWOP</h5></td>
