@@ -67,7 +67,7 @@ echo"
             </li>
         </ul>
     </div>
-    <img src=\"images/slither-logo.png\" id=\"logo\">
+    <!--<img src=\"images/slither-logo.png\" id=\"logo\">-->
     <ul id=\"icon-nav\">
         <li id=\"li4\"><a href=\"index.php\"><img src=\"images/home-icon.png\" width=\"50\" height=\"50\"> </a></li>
         <li id=\"li5\"><a href=\"profileInfo.php\"><img src=\"images/settings.png\" width=\"50\" height=\"50\"></a></li>
