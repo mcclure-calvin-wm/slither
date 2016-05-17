@@ -18,7 +18,7 @@ $gameData = $stmt->fetchAll();
 
 
 foreach ($gameData as $it) {
-    $gameName = $it['gameName'];
+    $gameNames = $it['gameNames'];
     $games = $it['games'];
     $image = $it['Image'];
 }
@@ -27,14 +27,9 @@ foreach ($gameData as $it) {
 
 <!DOCTYPE html>
 <head>
-    <title><?php echo $gameName ?></title>
+    <title><?php echo "$gameNames" ?></title>
     <?php require_once ('links.php') ?>
     <link href="game.css" rel="stylesheet" type="text/css">
-    <style>
-        body {
-            background-color: #d9d9d9;
-        }
-    </style>
 </head>
 <body>
 <?php require_once ('nav.php')?>
