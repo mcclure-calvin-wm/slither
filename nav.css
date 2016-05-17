@@ -27,8 +27,9 @@
     top: .5em;
 }
 
-#logo {
+#logo-background {
     width: 8em;
+    height: 2em;
     padding: 1.5em;
     float: left;
     margin-bottom: .5em;
@@ -39,14 +40,30 @@
     z-index: 10;
 }
 
+#logo {
+     width: 8em;
+     height: 2em;
+     padding: 1.5em;
+     float: left;
+     margin-bottom: .5em;
+     background-color: white;
+     border-radius: 50%;
+     position: fixed;
+     left: -.5em;
+     z-index: 10;
+ }
+
 #logo-under {
-    width: 8em;
+    width: 7em;
+    height: 8em;
     padding: 1.5em;
     float: left;
+    margin-left: 1em;
+    margin-top: .5em;
     margin-bottom: .5em;
     box-shadow: 0 0 .5em #000000;
-    background-color: #ffffff;
-    border-radius: 50%;
+    background-color: #FFFFFF;
+    border-radius: 30%;
     position: fixed;
     left: -.5em;
     top: 0;
