@@ -35,7 +35,7 @@ foreach ($gameData as $it) {
 <?php require_once ('nav.php')?>
 <?php require_once ('sidebar.php') ?>
 <!--<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" style="position: fixed; top: 13em; width: 10em;"></div>-->
-<div id="ads"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" id="dorito"></div>
+<div id="ads"><a href="http://www.fritolay.com/snacks/product-page/doritos/doritos-nacho-cheese-flavored-tortilla-chips"><span style="cursor:pointer"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/93a4fe16679317.562afc634e9b8.gif" id="dorito"></span></a></div>
 <div id="body">
     <?php echo "$games"?>
 </div>
