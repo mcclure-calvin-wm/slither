@@ -16,8 +16,7 @@ require('connectvars.php');
     <?php if(isset($_SESSION['password'])){
         echo "<tr><td><h3>Username: </h3><h1>" . $_SESSION["userName"] . "</h1></td></tr>";
     }else{
-        echo "<h1 id='notsign'>Not signed in</h1>";
-    }
+        echo "<h1 id='notsign' style='position: absolute; top: .1em; left: 1.5em; font-size: 5em;'>Please sign in to view this page</h1>";    }
     ?>
 
 </table>
